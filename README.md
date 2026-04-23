@@ -23,23 +23,20 @@ It allows users to load CSV data and perform operations like filtering, sorting,
 
 ## Project Structure
 
-CSV_Analyser/
-|
-|-- src/
-|   |-- Main.java
-|   |-- model/
-|   |   |-- Record.java
-|   |   |-- DataSet.java
-|   |
-|   |-- service/
-|       |-- CSVReader.java
-|       |-- Analyzer.java
-|       |-- Filter.java
-|       |-- Sorter.java
-|       |-- Search.java
-|       |-- Exporter.java
-|
-|-- data.csv
+CSV_Analyser
+    src
+        Main.java
+        model
+            Record.java
+            DataSet.java
+        service
+            CSVReader.java
+            Analyzer.java
+            Filter.java
+            Sorter.java
+            Search.java
+            Exporter.java
+    data.csv
 
 
 ## How to Run
